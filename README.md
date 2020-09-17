@@ -283,14 +283,14 @@ def func(arg1, arg2):
 1、模块
 模块尽量使用小写命名，首字母保持小写，尽量不要用下划线(除非多个单词，且数量不多的情况)
 
-# 正确的模块名
+ 正确的模块名
 import decoder
 import html_parser
 
 # 不推荐的模块名
 import Decoder
 2、类名
-类名使用驼峰(CamelCase)命名风格，首字母大写，私有类可用一个下划线开头
+# 类名使用驼峰(CamelCase)命名风格，首字母大写，私有类可用一个下划线开头
 
 class Farm():
     pass
@@ -329,8 +329,3 @@ MAX_CONNECTION = 1000
 CONNECTION_TIMEOUT = 600
 5、常量
 常量使用以下划线分隔的大写命名
-
-作者：东北王老师
-链接：https://www.jianshu.com/p/ff6fc6a2a0d8
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
